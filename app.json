@@ -1,13 +1,14 @@
 {
   "expo": {
     "name": "TierPass",
-    "slug": "TierPass",
+    "slug": "TIERPASS",
     "version": "1.0.0",
+    "owner": "tierjet",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/tierpass2.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/TierPass.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +20,23 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/tierpass2.png",
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4b0f5680-2ab4-4e8e-b2d8-22e2e3dbd77a"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/4b0f5680-2ab4-4e8e-b2d8-22e2e3dbd77a"
     }
   }
 }
